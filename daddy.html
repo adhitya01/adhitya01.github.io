@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My JWPlayer Video</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Include the JWPlayer library -->
+  <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+</head>
+<body>
+<!--<meta content='no-referrer' name='referrer'/>-->
+<div id="jw-container"></div>
+<script type="text/javascript">
+    var playerInstance = jwplayer('jw-container');
+    playerInstance.setup({
+        file: 'https://ddy1.salamus1.lol/ddy1/premium550/manifest.mpd',
+        aestoken: "hsfg632nklspaseostream234t34rt",
+        width: "100%",
+        autostart: true,
+        image: "https://i.postimg.cc/vH4Q6600/www-paseotvstream-blogspot-com.png",
+        responsive: true,
+        aspectratio: "16:9",
+        cast: {
+            appid: "DKJUTNEKADT",
+        },
+        //drm: {
+        //    clearkey: {
+        //        "keyId": "eeea0c2986e91a13eacd590ad1ebfe43",
+        //        "key": "0acc16bd84921489f67bad19e4099cae"
+        //    }
+        //},
+        //advertising: {
+        //    client: "vast",
+        //    schedule: {
+        //        adbreak1: {
+        //           offset: "pre",
+        //            tag: "https://www.videosprofitnetwork.com/watch.xml?key=7cbebbcb0c41176b7f0c1a35245457a8"
+        //        }
+        //    }
+        //},
+        logo: {
+            file: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-xT4qCnABvjKrQQ0iaVFMqvshJnWws8WUB5vzlQH8-5cGFKURF0ryqd4L7Sk8SQesu2Bj3Ro1_eFLHDVDjwq6DR0dVs0KI2K0rdsfU9Bmvp_4eR9jyFIccCOPTeXa8_jf8QPv9jM9jVSbZsx26SAYOkNmwRHzQD4wHWq-lpGcPimSrmelEnyzfYE-/s562/WWW.PASEOTVSTREAM.BLOGSPOT.COM%20%281%29.png',
+            hide: "false",
+            link: 'https://t.me/paseotv',
+            position: 'bottom-left'
+        },
+        sharing: {
+            sites: ["telegram", "facebook", "twitter"]
+        },
+    })
+</script>
+</body>
+</html>

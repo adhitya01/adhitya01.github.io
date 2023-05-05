@@ -7,12 +7,12 @@
   <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
 </head>
 <body>
-<meta content='no-referrer' name='referrer'/>
-<div id="my-video"></div>
+<!--<meta content='no-referrer' name='referrer'/>-->
+<div id="jw-container"></div>
 <script type="text/javascript">
-    var playerInstance = jwplayer('my-video');
+    var playerInstance = jwplayer('jw-container');
     playerInstance.setup({
-        file: 'https://ddy1.salamus1.lol/ddy1/premium550/manifest.mpd',
+        file: 'https://drm.embedd.eu.org/https://production-drm-vidio-com-plcs.akamaized.net/out/v1/323e0081ae1e471194808db88b86c5de/index.mpd',
         aestoken: "hsfg632nklspaseostream234t34rt",
         width: "100%",
         autostart: true,
@@ -22,6 +22,21 @@
         cast: {
             appid: "DKJUTNEKADT",
         },
+        drm: {
+            clearkey: {
+                "keyId": "b6f0ec073a7aba8cac61cd44fd78bf3f",
+                "key": "c1ae5fbd637e0f212bf36f7614b629c9"
+            }
+        },
+        //advertising: {
+        //    client: "vast",
+        //    schedule: {
+        //        adbreak1: {
+        //           offset: "pre",
+        //            tag: "https://www.videosprofitnetwork.com/watch.xml?key=7cbebbcb0c41176b7f0c1a35245457a8"
+        //        }
+        //    }
+        //},
     })
 </script>
 </body>

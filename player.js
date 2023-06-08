@@ -25,7 +25,7 @@ function playM3u8(url, license) {
             preferredAudioLanguage: 'en-US',
             drm: {
                 servers: {
-                    'com.widevine.alpha': license
+                    'com.widevine.alpha': 'https://gausahcopybesokilang.satvb.workers.dev'
                 }
             },
             streaming: {
